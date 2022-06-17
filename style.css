@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+    
+.header {
+    display: flex;
+    align-items: flex-start;
+    padding: 8px 24px;
+    border-bottom: 4px solid #879099;
+
+}
+
+#logo {
+    width: 18%;
+    max-width: 150px;
+    height: auto;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-left: auto;
+    font-size: 18px;
+    color: #8BBA47;
+}
+
+.header a {
+    font-size: 18px;
+    color: #8BBA47;
+    text-decoration: none;  
+}
+
+.block-1 {
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 8px;
+
+}
+
+#title-tile {
+    width: 35%;
+    height: auto;
+    padding: 8px;
+}
+
+.subblock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 45%;
+    justify-content: flex-start;
+}
+
+.stepa {
+    background-color: #A1D4DD;
+}
+
+.stepb {
+    background-color: #8BBA47;
+}
+
+.block-1 a {
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    text-decoration: none;
+}
+
+.step-title {
+    color:#8BBA47;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.list-title {
+    color:#879099;
+    font-size:3vw;
+}
+
+.subblock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+#contact {
+    width: 60%;
+    height: auto;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
