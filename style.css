@@ -21,14 +21,12 @@ body {
 .header ul {
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 25px;
     margin-left: auto;
-    font-size: 18px;
-    color: #8BBA47;
 }
 
-.header a {
-    font-size: 18px;
+.links a {
+    font-size: 2vw;
     color: #8BBA47;
     text-decoration: none;  
 }
@@ -97,6 +95,28 @@ body {
 
 .contact-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:#879099;
+    font-size:3vw;
+    padding-top: 25px;
+}
+
+.contact-box p {
+    margin: 1px;
+}
+
+.contact-box a {
+    color: #A1D4DD;
+}
+
+#name {
+    color: #8BBA47;
+    font-size: 5vw;
+}
+
+#titles {
+    font-size: 2vw;
+    padding-bottom: 25px;
 }
